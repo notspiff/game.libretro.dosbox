@@ -38,8 +38,8 @@ externalproject_add(dosbox
                     BUILD_IN_SOURCE 1)
 
 #install the generated shared library
-install(FILES ${PROJECT_SOURCE_DIR}/libretro/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
+install(FILES ${PROJECT_SOURCE_DIR}/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
-# write the nestopia-config.cmake script
+# write the dosbox-config.cmake script
 file(WRITE ${CMAKE_INSTALL_PREFIX}/dosbox-config.cmake "set(DOSBOX_LIB ${CMAKE_INSTALL_PREFIX}/lib/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
 
