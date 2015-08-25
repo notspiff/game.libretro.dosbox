@@ -17,16 +17,18 @@ if("${CORE_SYSTEM_NAME}" STREQUAL "windows")
   set(BUILD_COMMAND ${MINGW_MAKE} -f Makefile.libretro platform=win ${LIBRETRO_DEBUG})
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "linux")
   set(BUILD_COMMAND make -f Makefile.libretro ${LIBRETRO_DEBUG})
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "darwin")
+elseif("${CORE_SYSTEM_NAME}" STREQUAL "darwin" OR "${CORE_SYSTEM_NAME}" STREQUAL "osx")
   set(BUILD_COMMAND make -f Makefile.libretro platform=osx ${LIBRETRO_DEBUG})
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "ios")
-  # TODO
+  message(FATAL_ERROR "${PROJECT_NAME} needs IOS build command in CMakeLists.txt!")
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "android")
-  # TODO
+  message(FATAL_ERROR "${PROJECT_NAME} needs Android build command in CMakeLists.txt!")
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "rbpi")
-  # TODO
+  message(FATAL_ERROR "${PROJECT_NAME} needs RPi build command in CMakeLists.txt!")
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "freebsd")
-# TODO
+  message(FATAL_ERROR "${PROJECT_NAME} needs FreeBSD build command in CMakeLists.txt!")
+else()
+  message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
 
 externalproject_add(dosbox
@@ -42,4 +44,3 @@ install(FILES ${PROJECT_SOURCE_DIR}/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX
 
 # write the dosbox-config.cmake script
 file(WRITE ${CMAKE_INSTALL_PREFIX}/dosbox-config.cmake "set(DOSBOX_LIB ${CMAKE_INSTALL_PREFIX}/lib/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
-
