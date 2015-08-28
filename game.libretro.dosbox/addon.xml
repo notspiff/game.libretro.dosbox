@@ -16,6 +16,7 @@
                 <extensions>exe|com|bat|conf</extensions>
                 <supports_vfs>false</supports_vfs>
                 <supports_no_game>false</supports_no_game>
+                <supports_keyboard>true</supports_keyboard>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">DOSBox v0.74</summary>
