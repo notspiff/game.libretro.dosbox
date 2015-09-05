@@ -43,4 +43,4 @@ externalproject_add(dosbox
 install(FILES ${PROJECT_SOURCE_DIR}/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the dosbox-config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/dosbox-config.cmake "set(DOSBOX_LIB ${CMAKE_INSTALL_PREFIX}/lib/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-dosbox-config.cmake "set(DOSBOX_LIB ${CMAKE_INSTALL_PREFIX}/lib/dosbox_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")

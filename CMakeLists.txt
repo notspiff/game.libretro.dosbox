@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 enable_language(CXX)
 
 find_package(kodi REQUIRED)
-find_package(dosbox REQUIRED)
+find_package(libretro-dosbox REQUIRED)
 
 set(DEPBLIBS dosbox)
 
