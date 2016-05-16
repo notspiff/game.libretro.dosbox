@@ -7,11 +7,7 @@
         <import addon="game.libretro" version="1.0.0"/>
     </requires>
     <extension point="kodi.gameclient"
-               library_android="libgame.libretro.dosbox.so"
-               library_linux="game.libretro.dosbox.so"
-               library_osx="game.libretro.dosbox.dylib"
-               library_windx="game.libretro.dosbox.dll"
-               library_wingl="game.libretro.dosbox.dll">
+               library_@PLATFORM@="@LIBRARY_FILENAME@">
         <platforms></platforms>
                 <extensions>exe|com|bat|conf</extensions>
                 <supports_vfs>false</supports_vfs>
@@ -25,7 +21,7 @@
 Supported files: .exe, .com, .bat, .conf. If loading exe/com/bat the system directory will be searched for a 'dosbox.conf' file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
 
 License: GPLv2</description>
-        <platform>all</platform>
+        <platform>@PLATFORM@</platform>
         <nofanart>true</nofanart>
     </extension>
 </addon>
