@@ -1,10 +1,7 @@
+cmake_minimum_required(VERSION 3.1)
 project(game.libretro.dosbox)
 
-cmake_minimum_required(VERSION 2.6)
-
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
-
-enable_language(CXX)
 
 find_package(Kodi REQUIRED)
 find_package(libretro-dosbox REQUIRED)
@@ -12,8 +9,6 @@ find_package(libretro-dosbox REQUIRED)
 set(DEPBLIBS dosbox)
 
 set(DOSBOX_CUSTOM_BINARY ${DOSBOX_LIB}
-                         ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX}
-                         dosbox)
+                         ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 build_addon(${PROJECT_NAME} DOSBOX DEPLIBS)
-
