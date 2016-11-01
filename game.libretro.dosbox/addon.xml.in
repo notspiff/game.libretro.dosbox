@@ -13,6 +13,7 @@
                 <supports_vfs>false</supports_vfs>
                 <supports_no_game>false</supports_no_game>
                 <supports_keyboard>true</supports_keyboard>
+                <supports_mouse>true</supports_mouse>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">DOSBox v0.74</summary>
