@@ -19,7 +19,9 @@
 		<summary lang="en">DOS (DOSBox) 0.74</summary>
 		<description>DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.
 
-Supported files: .exe, .com, .bat, .conf. If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.</description>
+. If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
+
+Supported files: .exe, .com, .bat, .conf</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
