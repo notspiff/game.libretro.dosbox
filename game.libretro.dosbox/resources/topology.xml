@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port id="1">
+    <accepts controller="game.controller.keyboard" exclusive="false"/>
+    <accepts controller="game.controller.mouse" exclusive="false"/>
+    <accepts controller="game.controller.gravis.gamepad"/>
+    <accepts controller="game.controller.joystick.4button"/>
+    <accepts controller="game.controller.joystick.2button"/>
+      <port id="1">
+        <accepts controller="game.controller.joystick.2button" force="true"/>
+      </port>
+    </accepts>
+  </port>
+</logicaltopology>
