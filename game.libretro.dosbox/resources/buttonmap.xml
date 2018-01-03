@@ -75,7 +75,7 @@
     <feature name="f8" mapto="RETROK_F8"/>
     <feature name="f9" mapto="RETROK_F9"/>
     <feature name="f10" mapto="RETROK_F10"/>
-    <feature name="f11" mapto="RETROK_F11 "/>
+    <feature name="f11" mapto="RETROK_F11"/>
     <feature name="f12" mapto="RETROK_F12"/>
     <feature name="escape" mapto="RETROK_ESCAPE"/>
     <feature name="tab" mapto="RETROK_TAB"/>
