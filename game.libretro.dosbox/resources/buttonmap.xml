@@ -86,8 +86,8 @@
     <feature name="rightalt" mapto="RETROK_RALT"/>
     <feature name="leftctrl" mapto="RETROK_LCTRL"/>
     <feature name="rightctrl" mapto="RETROK_RCTRL"/>
-    <feature name="lshift" mapto="RETROK_LSHIFT"/>
-    <feature name="rshift" mapto="RETROK_RSHIFT"/>
+    <feature name="leftshift" mapto="RETROK_LSHIFT"/>
+    <feature name="rightshift" mapto="RETROK_RSHIFT"/>
     <feature name="capslock" mapto="RETROK_CAPSLOCK"/>
     <feature name="scrolllock" mapto="RETROK_SCROLLOCK"/>
     <feature name="numlock" mapto="RETROK_NUMLOCK"/>
