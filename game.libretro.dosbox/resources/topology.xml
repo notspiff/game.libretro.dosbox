@@ -9,7 +9,7 @@
   <port type="controller" id="1">
     <accepts controller="game.controller.gravis.gamepad"/>
     <accepts controller="game.controller.joystick.4button"/>
-    <accepts controller="game.controller.joystick.2button"/>
+    <accepts controller="game.controller.joystick.2button">
       <port id="1">
         <accepts controller="game.controller.joystick.2button"/>
       </port>
