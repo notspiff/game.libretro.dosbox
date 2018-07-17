@@ -21,26 +21,50 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "CPU cycles x 100000"
+msgid "Enable advanced core-options"
 msgstr ""
 
 msgctxt "#30002"
-msgid "CPU cycles x 10000"
+msgid "CPU core"
 msgstr ""
 
 msgctxt "#30003"
-msgid "CPU cycles x 1000"
+msgid "CPU cycles"
 msgstr ""
 
 msgctxt "#30004"
-msgid "CPU cycles x 100"
+msgid "CPU cycle mode"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Gamepad emulated mouse"
+msgid "CPU cycle multiplier"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Machine type"
+msgid "CPU type"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Gamepad emulated mouse"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Emulated machine"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable PC-Speaker"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Sound Blaster type"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Scaler"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable core-options"
 msgstr ""
 
