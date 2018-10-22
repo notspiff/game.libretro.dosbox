@@ -22,6 +22,7 @@
 Supported files: .exe, .com, .bat, .conf</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dosbox</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
