@@ -67,4 +67,3 @@ msgstr ""
 msgctxt "#30012"
 msgid "Enable core-options"
 msgstr ""
-
