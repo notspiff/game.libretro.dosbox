@@ -2,7 +2,7 @@
 <settings>
 	<category label="30000">
 		<setting label="30001" type="select" id="dosbox_adv_options" values="false|true" default="false"/>
-		<setting label="30002" type="select" id="dosbox_cpu_core" values="auto|dynamic|normal|simple" default="auto"/>
+		<setting label="30002" type="select" id="dosbox_cpu_core" values="auto|normal|simple" default="auto"/>
 		<setting label="30003" type="select" id="dosbox_cpu_cycles" values="1|2|3|4|5|6|7|8|9" default="1"/>
 		<setting label="30004" type="select" id="dosbox_cpu_cycles_mode" values="fixed" default="fixed"/>
 		<setting label="30005" type="select" id="dosbox_cpu_cycles_multiplier" values="1000|10000|100000|100" default="1000"/>
