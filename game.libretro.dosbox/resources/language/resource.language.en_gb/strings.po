@@ -49,21 +49,25 @@ msgid "Gamepad emulated mouse"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Emulated machine"
+msgid "Gamepad emulated deadzone"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Enable PC-Speaker"
+msgid "Emulated machine"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Sound Blaster type"
+msgid "Enable PC-Speaker"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Scaler"
+msgid "Sound Blaster type"
 msgstr ""
 
 msgctxt "#30012"
+msgid "Scaler"
+msgstr ""
+
+msgctxt "#30013"
 msgid "Enable core-options"
 msgstr ""
