@@ -14,61 +14,60 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
-"(n==3) ? 3 :(n==6) ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5;\n"
 
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Enable advanced core-options"
+msgid "Enable core-options"
 msgstr ""
 
 msgctxt "#30002"
-msgid "CPU core"
+msgid "Enable advanced core-options"
 msgstr ""
 
 msgctxt "#30003"
-msgid "CPU cycles"
-msgstr ""
-
-msgctxt "#30004"
-msgid "CPU cycle mode"
-msgstr ""
-
-msgctxt "#30005"
-msgid "CPU cycle multiplier"
-msgstr ""
-
-msgctxt "#30006"
-msgid "CPU type"
-msgstr ""
-
-msgctxt "#30007"
-msgid "Gamepad emulated mouse"
-msgstr ""
-
-msgctxt "#30008"
-msgid "Gamepad emulated deadzone"
-msgstr ""
-
-msgctxt "#30009"
 msgid "Emulated machine"
 msgstr ""
 
-msgctxt "#30010"
-msgid "Enable PC-Speaker"
-msgstr ""
-
-msgctxt "#30011"
-msgid "Sound Blaster type"
-msgstr ""
-
-msgctxt "#30012"
+msgctxt "#30004"
 msgid "Scaler"
 msgstr ""
 
+msgctxt "#30005"
+msgid "Gamepad emulated mouse"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Gamepad emulated deadzone"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CPU core"
+msgstr ""
+
+msgctxt "#30008"
+msgid "CPU type"
+msgstr ""
+
+msgctxt "#30009"
+msgid "CPU cycle mode"
+msgstr ""
+
+msgctxt "#30010"
+msgid "CPU cycle multiplier"
+msgstr ""
+
+msgctxt "#30011"
+msgid "CPU cycles"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Sound Blaster type"
+msgstr ""
+
 msgctxt "#30013"
-msgid "Enable core-options"
+msgid "Enable PC-Speaker"
 msgstr ""

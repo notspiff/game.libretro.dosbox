@@ -22,53 +22,105 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "#30001"
-msgid "Enable advanced core-options"
-msgstr "Включить расширеные настройки ядра"
+msgid "Enable core-options"
+msgstr ""
 
 msgctxt "#30002"
-msgid "CPU core"
-msgstr "CPU ядро"
+msgid "Enable advanced core-options"
+msgstr ""
 
 msgctxt "#30003"
-msgid "CPU cycles"
-msgstr "CPU циклы"
+msgid "Emulated machine"
+msgstr ""
 
 msgctxt "#30004"
-msgid "CPU cycle mode"
-msgstr "Режим циклов CPU"
+msgid "Scaler"
+msgstr ""
 
 msgctxt "#30005"
-msgid "CPU cycle multiplier"
-msgstr "Множитель циклов CPU"
+msgid "Gamepad emulated mouse"
+msgstr ""
 
 msgctxt "#30006"
-msgid "CPU type"
-msgstr "Тип CPU"
+msgid "Gamepad emulated deadzone"
+msgstr ""
 
 msgctxt "#30007"
-msgid "Gamepad emulated mouse"
-msgstr "Эмуляция мыши геймпадом"
+msgid "CPU core"
+msgstr ""
 
 msgctxt "#30008"
-msgid "Gamepad emulated deadzone"
-msgstr "Мертвая зона геймпада"
+msgid "CPU type"
+msgstr ""
 
 msgctxt "#30009"
-msgid "Emulated machine"
-msgstr "Эмулируемая машина"
+msgid "CPU cycle mode"
+msgstr ""
 
 msgctxt "#30010"
-msgid "Enable PC-Speaker"
-msgstr "Включить PC спикер"
+msgid "CPU cycle multiplier"
+msgstr ""
 
 msgctxt "#30011"
-msgid "Sound Blaster type"
-msgstr "Тип Sound Blaster"
+msgid "CPU cycles"
+msgstr ""
 
 msgctxt "#30012"
-msgid "Scaler"
-msgstr "Масштабирование"
+msgid "Sound Blaster type"
+msgstr ""
 
 msgctxt "#30013"
-msgid "Enable core-options"
-msgstr "Включить опции ядра"
+msgid "Enable PC-Speaker"
+msgstr ""
+
+#~ msgctxt "#30001"
+#~ msgid "Enable advanced core-options"
+#~ msgstr "Включить расширеные настройки ядра"
+
+#~ msgctxt "#30002"
+#~ msgid "CPU core"
+#~ msgstr "CPU ядро"
+
+#~ msgctxt "#30003"
+#~ msgid "CPU cycles"
+#~ msgstr "CPU циклы"
+
+#~ msgctxt "#30004"
+#~ msgid "CPU cycle mode"
+#~ msgstr "Режим циклов CPU"
+
+#~ msgctxt "#30005"
+#~ msgid "CPU cycle multiplier"
+#~ msgstr "Множитель циклов CPU"
+
+#~ msgctxt "#30006"
+#~ msgid "CPU type"
+#~ msgstr "Тип CPU"
+
+#~ msgctxt "#30007"
+#~ msgid "Gamepad emulated mouse"
+#~ msgstr "Эмуляция мыши геймпадом"
+
+#~ msgctxt "#30008"
+#~ msgid "Gamepad emulated deadzone"
+#~ msgstr "Мертвая зона геймпада"
+
+#~ msgctxt "#30009"
+#~ msgid "Emulated machine"
+#~ msgstr "Эмулируемая машина"
+
+#~ msgctxt "#30010"
+#~ msgid "Enable PC-Speaker"
+#~ msgstr "Включить PC спикер"
+
+#~ msgctxt "#30011"
+#~ msgid "Sound Blaster type"
+#~ msgstr "Тип Sound Blaster"
+
+#~ msgctxt "#30012"
+#~ msgid "Scaler"
+#~ msgstr "Масштабирование"
+
+#~ msgctxt "#30013"
+#~ msgid "Enable core-options"
+#~ msgstr "Включить опции ядра"
