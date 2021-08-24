@@ -16,6 +16,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
 
+msgctxt "Addon Summary"
+msgid "DOS (DOSBox) 0.74"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.
+
+. If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
+
+Supported files: .exe, .com, .bat, .conf"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""

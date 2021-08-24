@@ -14,8 +14,6 @@
 		<supports_standalone>true</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">DOS (DOSBox) 0.74</summary>
-		<description lang="en_GB">DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.
 
 . If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
 
@@ -26,5 +24,11 @@ Supported files: .exe, .com, .bat, .conf</description>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="en_GB">DOS (DOSBox) 0.74</summary>
+		<description lang="en_GB">DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.
+
+. If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
+
+Supported files: .exe, .com, .bat, .conf</description>
 	</extension>
 </addon>
