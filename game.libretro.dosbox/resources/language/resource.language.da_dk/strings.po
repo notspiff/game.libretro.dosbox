@@ -22,7 +22,7 @@ msgid "DOS (DOSBox) 0.74"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.[CR][CR]If loading exe/com/bat the system directory will be searched for a &#39;dosbox.conf&#39; file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.[CR][CR]Supported files: .exe, .com, .bat, .conf"
+msgid "DOSBox emulates an IBM PC compatible computer running MS-DOS.[CR][CR]DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era."
 msgstr ""
 
 msgctxt "#30000"
