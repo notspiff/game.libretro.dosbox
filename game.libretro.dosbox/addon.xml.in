@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dosbox"
 		name="DOS (DOSBox)"
-		version="0.74.0.11"
+		version="0.74.0.12"
 		provider-name="DOSBox Team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -12,6 +12,7 @@
 		<extensions>exe|com|bat|conf</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>true</supports_standalone>
+		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2</license>
