@@ -25,6 +25,7 @@
 		<description lang="da_DK">DOSBox emulerer en IBM PC-kompatibel computer, der kører MS-DOS.[CR][CR]DOSBox kan konfigureres til at køre en bred vifte af DOS-spil, fra CGA/Tandy/PCjr-klassikere op til spil fra Quake-æraen.</description>
 		<description lang="en_GB">DOSBox emulates an IBM PC compatible computer running MS-DOS.[CR][CR]DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.</description>
 		<description lang="fi_FI">DOSBox emuloi IBM PC -tietokonetta, jossa on MS-DOS.[CR][CR]DOSBox voidaan määrittää monenlaisille DOS-peleille aina CGA/Tandy/PCjr-klassikoista Quake-aikakauden peleihin.</description>
+		<description lang="it_IT">DOSBox emula un computer IBM compatibile con PC che esegue MS-DOS.[CR][CR]DOSBox può essere configurato per eseguire un&apos;ampia gamma di giochi DOS, dai classici CGA/Tandy/PCjr fino ai giochi dell&apos;era di Quake.</description>
 		<description lang="zh_CN">DOSBox 模拟运行 MS-DOS 的 IBM PC 兼容计算机。[CR][CR]DOSBox 可以配置用于运行从 CGA/Tandy/PCjr 经典到 Quake 时代的各种 DOS 游戏。</description>
 	</extension>
 </addon>
