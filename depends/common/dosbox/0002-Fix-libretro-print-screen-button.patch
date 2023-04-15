@@ -1,0 +1,25 @@
+From 3f1284258604884ca66fbde9fde278cf731b0b13 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sat, 15 Apr 2023 10:52:58 -0700
+Subject: [PATCH] Fix libretro print screen button
+
+---
+ libretro/mapper.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/libretro/mapper.cpp b/libretro/mapper.cpp
+index d67ade5..1ddc4d1 100644
+--- a/libretro/mapper.cpp
++++ b/libretro/mapper.cpp
+@@ -53,7 +53,7 @@ static const struct { unsigned retroID; KBD_KEYS dosboxID; } keyMap[] =
+     {RETROK_BACKSLASH, KBD_backslash}, {RETROK_LEFTBRACKET, KBD_leftbracket},
+     {RETROK_RIGHTBRACKET, KBD_rightbracket}, {RETROK_SEMICOLON, KBD_semicolon},
+     {RETROK_QUOTE, KBD_quote}, {RETROK_PERIOD, KBD_period}, {RETROK_COMMA, KBD_comma},
+-    {RETROK_SLASH, KBD_slash}, {RETROK_SYSREQ, KBD_printscreen}, {RETROK_PAUSE, KBD_pause},
++    {RETROK_SLASH, KBD_slash}, {RETROK_PRINT, KBD_printscreen}, {RETROK_PAUSE, KBD_pause},
+     {RETROK_INSERT, KBD_insert}, {RETROK_HOME, KBD_home}, {RETROK_PAGEUP, KBD_pageup},
+     {RETROK_PAGEDOWN, KBD_pagedown}, {RETROK_DELETE, KBD_delete}, {RETROK_END, KBD_end},
+     {RETROK_LEFT, KBD_left}, {RETROK_UP, KBD_up}, {RETROK_DOWN, KBD_down}, {RETROK_RIGHT, KBD_right},
+-- 
+2.37.0.windows.1
+
