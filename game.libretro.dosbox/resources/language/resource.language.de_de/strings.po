@@ -1,0 +1,82 @@
+# game.libretro.dosbox language file
+# Addon Name: game.libretro.dosbox
+# Addon id: game.libretro.dosbox
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.dosbox\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2023-02-17 23:04+0000\n"
+"Last-Translator: Demian <Demian@gmx.co.uk>\n"
+"Language-Team: German <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-dosbox/de_de/>\n"
+"Language: de_de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.2\n"
+
+msgctxt "Addon Summary"
+msgid "DOS (DOSBox)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DOSBox emulates an IBM PC compatible computer running MS-DOS.[CR][CR]DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era."
+msgstr "DOSBox emuliert einen IBM-PC-kompatiblen Computer, auf dem MS-DOS ausgeführt wird.[CR][CR]DOSBox kann so konfiguriert werden, dass eine große Auswahl an DOS-Spielen läuft, von CGA/Tandy/PCjr-Klassikern bis hin zu Spielen aus der Ära von Quake."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "#30001"
+msgid "Enable core-options"
+msgstr "Core-Optionen aktivieren"
+
+msgctxt "#30002"
+msgid "Enable advanced core-options"
+msgstr "Erweiterte Core-Optionen aktivieren"
+
+msgctxt "#30003"
+msgid "Emulated machine"
+msgstr "Emulierter Rechner"
+
+msgctxt "#30004"
+msgid "Scaler"
+msgstr "Skaler"
+
+msgctxt "#30005"
+msgid "Gamepad emulated mouse"
+msgstr "Gamepad-emulierte Maus"
+
+msgctxt "#30006"
+msgid "Gamepad emulated deadzone"
+msgstr "Gamepad-emulierte Deadzone"
+
+msgctxt "#30007"
+msgid "CPU core"
+msgstr "CPU-Kern"
+
+msgctxt "#30008"
+msgid "CPU type"
+msgstr "CPU-Typ"
+
+msgctxt "#30009"
+msgid "CPU cycle mode"
+msgstr "CPU-Zyklusmodus"
+
+msgctxt "#30010"
+msgid "CPU cycle multiplier"
+msgstr "CPU-Zyklusmultiplikator"
+
+msgctxt "#30011"
+msgid "CPU cycles"
+msgstr "CPU-Zyklen"
+
+msgctxt "#30012"
+msgid "Sound Blaster type"
+msgstr "Soundblastertyp"
+
+msgctxt "#30013"
+msgid "Enable PC-Speaker"
+msgstr "PC-Lautsprecher aktivieren"
