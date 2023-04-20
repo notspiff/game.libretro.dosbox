@@ -127,7 +127,7 @@
     <feature name="kpmultiply" mapto="RETROK_KP_MULTIPLY"/>
     <feature name="kpminus" mapto="RETROK_KP_MINUS"/>
     <feature name="kpplus" mapto="RETROK_KP_PLUS"/>
-    <feature name="kpenter" mapto="RETROK_KP_PLUS"/>
+    <feature name="kpenter" mapto="RETROK_KP_ENTER"/>
     <feature name="kpperiod" mapto="RETROK_KP_PERIOD"/>
     <feature name="grave" mapto="RETROK_BACKQUOTE"/>
   </controller>
